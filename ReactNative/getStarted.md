@@ -11,41 +11,53 @@
 ## Steps
 
 - Create a project using Expo CLI
-  ...
-  npx create-expo-app my-app
-  ...
+  
+  `npx create-expo-app my-app`
 
 - Navigate to the project directory
-  ...
-  cd my-app
-  ...
+  
+  `cd my-app`
 
 - Open with editor
-  ...
-  code .
-  ...
+  
+  `code .`
 
 - Ejecute the project
-  ...
-  npx expo start
-  ...
+  
+  `npx expo start`
+
+
+## React Navigation
+
+- Install react-navigation
+  
+  `npm install @react-navigation/native`
+
+- Install dependencies
+- 
+  `npx expo install react-native-screens react-native-safe-area-context`
+
+- Gesture Library
+  
+  `npm install @react-navigation/native-stack`
+
 
 ## Some React Native Core Components
 
-|   ReactNative        |   Android View   |    IOS View       | Web Analog |
-|----------------------|------------------|-------------------|------------|
-|  <View>              |    <ViewGroup>   |   <UIView>        |   <div>    |
-|  <Text>              |    <TextView>    |   <UITextView>    |   <p>      |
-|  <Image>             |    <ImageView>   |   <UIImageView>   |   <img>    |
-|  <ScrolView>         |    <ScrollView>  |   <UIScrollView>  |   <div>    |
-|  <Pressable>         |    <        >    |   <           >   |   <     >  |
-|  <TouchableOpacity>  |    <        >    |   <           >   |   <     >  |
-|  <StatusBar>         |    <        >    |   <           >   |   <     >  |
-|  <Navigator>         |    <        >    |   <           >   |   <     >  |
-|  <ActivityIndicator> |    <        >    |   <           >   |   <     >  |
-|  <FlatList>          |    <        >    |   <           >   |   <     >  |
-|  <ActivityIndicator> |    <        >    |   <           >   |   <     >  |
-|  <ActivityIndicator> |    <        >    |   <           >   |   <     >  |
+| ReactNative         | Android View | IOS View       | Web Analog |
+| ------------------- | ------------ | -------------- | ---------- |
+| <View>              | <ViewGroup>  | <UIView>       | <div>      |
+| <Text>              | <TextView>   | <UITextView>   | <p>        |
+| <Image>             | <ImageView>  | <UIImageView>  | <img>      |
+| <ScrolView>         | <ScrollView> | <UIScrollView> | <div>      |
+| <Pressable>         | <        >   | <           >  | <     >    |
+| <TouchableOpacity>  | <        >   | <           >  | <     >    |
+| <StatusBar>         | <        >   | <           >  | <     >    |
+| <Navigator>         | <        >   | <           >  | <     >    |
+| <ActivityIndicator> | <        >   | <           >  | <     >    |
+| <FlatList>          | <        >   | <           >  | <     >    |
+| <ActivityIndicator> | <        >   | <           >  | <     >    |
+| <ActivityIndicator> | <        >   | <           >  | <     >    |
 
 * For more information: 
 [Android] (https://reactnative.dev/)
@@ -54,17 +66,20 @@
 
 ## Events
 
-|    IMPLEMENTED        | 	  WORK IN PROGRESS      | 	  YET TO BE IMPLEMENTED    |
-|-----------------------|---------------------------|------------------------------|
-|    onPointerOver      |	    onPointerCancel	      |     onClick                  |
-|    onPointerEnter	    |	    onContextMenu         |                              |
-|    onPointerDown	    |	    onGotPointerCapture   |                              |        
-|    onPointerMove	    |	    onLostPointerCapture  |                              |         
-|    onPointerUp		    |     onPointerRawUpdate    |                              |       
-|    onPointerOut		    |                           |                              |
-|    onPointerLeave	    |	                          |                              |
+| IMPLEMENTED    | WORK IN PROGRESS     | YET TO BE IMPLEMENTED |
+| -------------- | -------------------- | --------------------- |
+| onPointerOver  | onPointerCancel      | onClick               |
+| onPointerEnter | onContextMenu        |                       |
+| onPointerDown  | onGotPointerCapture  |                       |
+| onPointerMove  | onLostPointerCapture |                       |
+| onPointerUp    | onPointerRawUpdate   |                       |
+| onPointerOut   |                      |                       |
+| onPointerLeave |                      |                       |
 
 
 ## Event Properties
 
 - 
+
+
+
