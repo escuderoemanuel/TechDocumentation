@@ -1,10 +1,10 @@
-  - # POSSIBLE ERRORS
+# POSSIBLE ERRORS
 
 * Powershell does not run comand nodemon!
-    - Run with Gitbash terminal
+    - _Run with Gitbash terminal_
 
 * Nodemon Loop
-    - nodemon --ignore 'file path to ignore' fileToRun
+    - _nodemon --ignore 'file path to ignore' fileToRun_
     ```
     nodemon --ignore './src/product.js' src/app
     ```
