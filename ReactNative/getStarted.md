@@ -3,83 +3,53 @@
 
 ## Requeriments
 
-- Node
-- Expo CLI
-- IDE (VSCode)
-- Android Studio || Browser || Expo Go Phone
+- [Node](https://nodejs.org/en)
+- [Expo CLI](https://docs.expo.dev/more/expo-cli/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Android Studio](https://developer.android.com/studio?hl=es-419)
+  - _You can also use your Browser or the Expo Go Phone application_.
 
-## Steps
+## Steps (_in your console_)
 
 - Create a project using Expo CLI
-  
-  `npx create-expo-app my-app`
+  ```
+  npx create-expo-app my-app
+  ```
 
 - Navigate to the project directory
-  
-  `cd my-app`
+  ```
+  cd my-app
+  ```
 
 - Open with editor
-  
-  `code .`
+  ```
+  code .
+  ```
 
 - Ejecute the project
-  
-  `npx expo start`
+  ```
+  npx expo start
+  ```
 
 
 ## React Navigation
 
 - Install react-navigation
-  
-  `npm install @react-navigation/native`
+  ```
+  npm install @react-navigation/native
+  ```
 
 - Install dependencies
-- 
-  `npx expo install react-native-screens react-native-safe-area-context`
-
+  ```
+  npx expo install react-native-screens react-native-safe-area-context
+  ```
+ 
 - Gesture Library
-  
-  `npm install @react-navigation/native-stack`
+  ```
+  npm install @react-navigation/native-stack
+  ```
 
 
-## Some React Native Core Components
-
-| ReactNative         | Android View | IOS View       | Web Analog |
-| ------------------- | ------------ | -------------- | ---------- |
-| <View>              | <ViewGroup>  | <UIView>       | <div>      |
-| <Text>              | <TextView>   | <UITextView>   | <p>        |
-| <Image>             | <ImageView>  | <UIImageView>  | <img>      |
-| <ScrolView>         | <ScrollView> | <UIScrollView> | <div>      |
-| <Pressable>         | <        >   | <           >  | <     >    |
-| <TouchableOpacity>  | <        >   | <           >  | <     >    |
-| <StatusBar>         | <        >   | <           >  | <     >    |
-| <Navigator>         | <        >   | <           >  | <     >    |
-| <ActivityIndicator> | <        >   | <           >  | <     >    |
-| <FlatList>          | <        >   | <           >  | <     >    |
-| <ActivityIndicator> | <        >   | <           >  | <     >    |
-| <ActivityIndicator> | <        >   | <           >  | <     >    |
-
-* For more information: 
-[Android] (https://reactnative.dev/)
-[IOS] (https://reactnative.dev/docs/native-components-ios)
-
-
-## Events
-
-| IMPLEMENTED    | WORK IN PROGRESS     | YET TO BE IMPLEMENTED |
-| -------------- | -------------------- | --------------------- |
-| onPointerOver  | onPointerCancel      | onClick               |
-| onPointerEnter | onContextMenu        |                       |
-| onPointerDown  | onGotPointerCapture  |                       |
-| onPointerMove  | onLostPointerCapture |                       |
-| onPointerUp    | onPointerRawUpdate   |                       |
-| onPointerOut   |                      |                       |
-| onPointerLeave |                      |                       |
-
-
-## Event Properties
-
-- 
 
 
 
