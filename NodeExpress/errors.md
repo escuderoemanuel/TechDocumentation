@@ -5,6 +5,6 @@
 
 * Nodemon Loop
     - _nodemon --ignore 'file path to ignore' fileToRun_
-    ```
+    ```powershell
     nodemon --ignore './src/product.js' src/app
     ```

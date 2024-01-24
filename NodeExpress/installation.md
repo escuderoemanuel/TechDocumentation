@@ -1,14 +1,40 @@
 # STEPS
 
-* Global Installation Nodemon `npm install -g nodemon`
-    - Optional Project Installation as a Dependency: `npm install --save-dev nodemon`
-    - Run Nodemon Project: `nodemon miApp.js`
-* Create Project Folder
-* Run: `npm init` (-y optional)
-* Enter in Project Folder
-* Run: `npm install express`
-    - Optional Global Installation: `npm install -g express`
-    - After global installation, you could create Express.js projects in any location using the command `express my-express-app`
-* Create Src Folder
-* Create App.js file (Or any name)
+
+- Create Project Folder
+- Open it with VSCode or other IDE
+- Starting NPM:
+  ```powershell
+  npm init (-y optional)
+  ```
+- Installing Express: 
+  ```powershell
+  npm install express
+  ```
+  - Optional Global Installation:
+    ```powershell
+    npm install -g express
+    ```
+  - After global installation, you could create Express.js projects in any location using the command:
+    ```powershell
+    express my-express-app
+    ```
+- Installing Nodemon in the project: 
+  ```powershell
+  npm install nodemon
+  ```
+  - _Optional Global Installation Nodemon_
+    ```powershell
+    npm install -g nodemon
+    ```
+  - _Optional Project Installation as a Dependency_ 
+    ```powershell
+    npm install --save-dev nodemon
+    ```
+  - _Optional Run Nodemon Project_ 
+    ```powershell
+    nodemon app
+    ```
+- Create Src Folder
+- Create app.js file (Or any name)
 
