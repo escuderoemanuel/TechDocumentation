@@ -17,7 +17,7 @@
   import { API_URL, API_KEY, IMAGE_PATH } from '../../constants/config';
   ```
 - Use the Enviroment Variables in our app (example)
-- /_ Fetch to List Movie _/
+- Fetch to List Movie
   ```js
   const fetchMovies = async (searchKey) => {
     const type = searchKey ? 'search' : 'discover';
@@ -62,8 +62,7 @@
 
 - Use the Enviroment Variables in our app (example)
 
-- _Fetch to List Movie_
-
+- Fetch to List Movie
   ```js
   const fetchMovies = async (searchKey) => {
     const type = searchKey ? 'search' : 'discover';
