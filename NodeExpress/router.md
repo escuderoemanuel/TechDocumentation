@@ -3,7 +3,7 @@
 ### Creating routes is useful to have the code composed, organized, scalable and clean!
 
 ## Steps:
-- Create a folder called 'routes' into 'src' folder.
+- Create a folder called 'routes' inside 'src' folder.
 - Create a 'name.router.js' => in this case 'pets.router.js'
 - Write the file. 
 - Simple example, how to create a router file:
