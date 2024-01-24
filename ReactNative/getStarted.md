@@ -12,22 +12,19 @@
 ## Steps (_in your console_)
 
 - Create a project using Expo CLI
-  ```
+  ```powershell
   npx create-expo-app my-app
   ```
-
 - Navigate to the project directory
-  ```
+  ```powershell
   cd my-app
   ```
-
 - Open with editor
-  ```
+  ```powershell
   code .
   ```
-
 - Ejecute the project
-  ```
+  ```powershell
   npx expo start
   ```
 
@@ -35,21 +32,16 @@
 ## React Navigation
 
 - Install react-navigation
-  ```
+  ```powershell
   npm install @react-navigation/native
   ```
-
 - Install dependencies
-  ```
+  ```powershell
   npx expo install react-native-screens react-native-safe-area-context
   ```
  
 - Gesture Library
-  ```
+  ```powershell
   npm install @react-navigation/native-stack
   ```
-
-
-
-
 
