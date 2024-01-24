@@ -4,7 +4,7 @@
 - Declare the variables (example):
   ```js
   REACT_API_URL: https://api.themoviedb.org/3
-  REACT_API_KEY: 6d5c35b14568j5613345bf5aasa0c07f2e1d
+  REACT_API_KEY: d5c35b1XXXXj561XXXXbf5XXXX0c07f2e1d
   ```
 
 - Create file 'config.js' in folder 'constants'
@@ -48,7 +48,7 @@
 - Declare the variables (example):
   ```js
   VITE_API_URL: https://api.themoviedb.org/3
-  VITE_API_KEY: 6d5c00b14568j5613345bf5a4c07f2e1d
+  VITE_API_KEY: d5c35b1XXXXj561XXXXbf5XXXX0c07f2e1d
   ```
 - Create file 'config.js' in folder 'constants'
   ```js
