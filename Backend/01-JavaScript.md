@@ -1,7 +1,58 @@
 # Backend General Information
 
 ### JavaScript:
-  - Variables: 'let', 'const'.
+Lenguaje (interpretado por el navegador) de programación utilizado desde 1995 por Netscape Navigator. Se utiliza principalmente para apotar dinamismo a sitios web y aplicaciones web. Funciona en complemento con HTML y CSS, permitiendo crear nuevas funcionalidades e interacciones avanzadas con los usuarios, así como interactual con otras aplicaciones o servicios de backend.
+  - Datos: Numéricos, Cadenas, Booleanos, Punteros.
+  - Variables: Globales y Locales.
+  - Objetos: Arrays, Booleans, Date, Math, String.
+  - Arrays: Índice, Longitud.
+  - Funciones: Conjunto de instrucciones que se agrupan para realizar una tarea concreta. Se pueden reutilizar a lo largo de diferentes instancias del código.
+  - Condicionales: Retornan un valor booleano.
+    - if, else if, else...
+    - Comparadores: ==, ===, !=, !==, <, <=, >, >=
+    - Operadores Lógicos: &&, ||, !
+  - Estructura 'Switch': Sirve para manejar múltiples condiciones sobre la misma variable, más ordenadamente que con varios 'if'.
+    ```js
+    switch(number) {
+      case 5:
+        ...
+        break;
+      case 8:
+        ...
+        break;
+      case 0:
+      ...
+      break;
+      default:
+        ...
+        break;
+    }
+    ```
+    Ciclos, Bucles, Iteraciones:  Estructuras que permiten realizar una o más operaciones más de una vez de forma consecutiva.
+    - For:
+      ```js
+      // desde; hasta; actualización
+      for (let i = 0; i <= 5; i++) {
+        console.log(`Iteración número: ${i}`)
+      }
+      ```
+    - While:
+      ```js
+      let repeat = true;
+      while(repeat) {
+        console.log('I am writing...')
+      }
+      ```
+    - Do... While:
+      ```js
+      let repeat = true;
+      do {
+        console.log('Siempre va a ejecutarse esta línea')
+      } while(repeat) {
+        console.log('I am writing...')
+      }
+      ```
+  - Variables: Espacio reservado en memoria. Puede cambiar su contenido a lo largo de la ejecución de un programa. Pueden ser declaras con 'let' o 'const'.
     ```js
     const user = 'John';
     // TypeError: Assignment to contant
@@ -118,7 +169,7 @@
       console.log('counter1:', counter1.counter);
       console.log('counter2:', counter2.counter);
       ```
-    - Array Methods:
+    - Array Methods: 
       - Uno
       - Dos
     - Promises: Son...

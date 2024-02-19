@@ -3,7 +3,7 @@
 ## Code Optimization
 
 - KISS: Keep It Simple, Stupid!
-- YANGI: You Aren't Gonna Need It.
+- YANGI: You Are Not Gonna Need It.
 - DRY: Don't Repeat Yourself
 
 
