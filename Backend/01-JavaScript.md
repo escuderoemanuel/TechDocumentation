@@ -118,3 +118,13 @@
       console.log('counter1:', counter1.counter);
       console.log('counter2:', counter2.counter);
       ```
+    - Array Methods:
+      - Uno
+      - Dos
+    - Promises: Son...
+      - Example:
+        ````js
+
+        ```
+    - Spread Operator:
+    - Rest Operator:
