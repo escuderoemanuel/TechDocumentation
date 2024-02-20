@@ -8,7 +8,7 @@
 
 
 ## Technologies
-
+- [Javascript](https://https://developer.mozilla.org/es/docs/Web/JavaScript)
 - [Node](https://nodejs.org/en) Version
 - [Expo CLI](https://docs.expo.dev/more/expo-cli/) Version
 - [Visual Studio Code](https://code.visualstudio.com/) Version

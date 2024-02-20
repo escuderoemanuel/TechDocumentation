@@ -169,13 +169,153 @@ Lenguaje (interpretado por el navegador) de programación utilizado desde 1995 p
       console.log('counter1:', counter1.counter);
       console.log('counter2:', counter2.counter);
       ```
-    - Array Methods: 
-      - Uno
-      - Dos
-    - Promises: Son...
-      - Example:
-        ````js
+    - Object
+      ```js
+      // Object Example
+      let taxes = {
+        tax1: 'value1',
+        tax2: 'value2',
+        tax3: 'value3',
+      }
 
+      // Only Properties
+      let onlyProperties = Object.key(taxes)
+        console.log(onlyProperties) // => result: [tax1, tax2, tax3]
+
+      // Only Values
+      let onlyValues = Object.values(taxes)
+        console.log(onlyValues) // => result: [value1, value2, value3]
+
+      let pairKeyValue = Object.entries(taxes)
+      console.log(pairKeyValue) // => [[ tax1, value1 ], [ tax2, value2 ], [ tax3, value3 ]]
+      ```
+    - Array Methods: 
+      - push(): Agrega uno o más elementos al final del array y devuelve la nueva longitud del array.
+        ```js
+        const array = [1, 2, 3];
+        array.push(4, 5);
+        console.log(array); // Output: [1, 2, 3, 4, 5]
         ```
-    - Spread Operator:
+      - pop(): Elimina el último elemento del array y lo devuelve.
+        ```js     
+        const array = [1, 2, 3];
+        const elementoEliminado = array.pop();
+        console.log(elementoEliminado); // Output: 3
+        console.log(array); // Output: [1, 2]
+        ```
+      - shift(): Elimina el primer elemento del array y lo devuelve, modificando el array original.
+        ```js     
+        const array = [1, 2, 3];
+        const elementoEliminado = array.shift();
+        console.log(elementoEliminado); // Output: 1
+        console.log(array); // Output: [2, 3]
+        ```
+      - unshift(): Agrega uno o más elementos al principio del array y devuelve la nueva longitud del array.
+        ```js     
+        const array = [2, 3];
+        array.unshift(0, 1);
+        console.log(array); // Output: [0, 1, 2, 3]
+        ```
+      - concat(): Retorna un nuevo array que contiene los elementos de los arrays o valores concatenados.
+        ```js     
+        const array1 = [1, 2];
+        const array2 = [3, 4];
+        const newArray = array1.concat(array2);
+        console.log(newArray); // Output: [1, 2, 3, 4]
+        ```
+      - slice(): Retorna una copia superficial de una porción del array en un nuevo array seleccionado desde inicio hasta fin (fin no incluido). El array original no se modificará.
+        ```js
+        const array = [1, 2, 3, 4, 5];
+        const newArray = array.slice(2, 4);
+        console.log(newArray); // Output: [3, 4]
+        ```
+      - splice(): Cambia el contenido de un array eliminando o reemplazando elementos existentes y/o agregando nuevos elementos en su lugar.
+        ```js
+        const array = [1, 2, 3, 4, 5];
+        array.splice(2, 1, 'a', 'b');
+        console.log(array); // Output: [1, 2, 'a', 'b', 4, 5]
+        ```
+      - forEach(): Ejecuta una función dada una vez por cada elemento del array.
+        ```js
+        const array = [1, 2, 3];
+        array.forEach(element => console.log(element));
+        // Output:
+        // 1
+        // 2
+        // 3
+        ```
+      - map(): Crea un nuevo array con los resultados de llamar a una función proporcionada en cada elemento del array.
+        ```js
+        const array = [1, 2, 3];
+        const newArray = array.map(element => element * 2);
+        console.log(newArray); // Output: [2, 4, 6]
+        ```
+      - filter(): Crea un nuevo array con todos los elementos que pasan la prueba implementada por la función proporcionada.
+        ```js
+        const array = [1, 2, 3, 4, 5];
+        const newArray = array.filter(element => element % 2 === 0);
+        console.log(newArray); // Output: [2, 4]
+        ```
+      - reduce(): Aplica una función a un acumulador y a cada valor del array (de izquierda a derecha) para reducirlo a un único valor.
+        ```js
+        const array = [1, 2, 3, 4, 5];
+        const sum = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+        console.log(sum); // Output: 15
+        ```
+      - Otros ...
+    - Promises: operaciones asíncronas. Permiten que una operación asíncrona produzca un valor en el futuro, una vez que se complete, o una razón por la cual no se puede completar. Las promesas tienen tres estados: pendiente (pending), resuelta (fulfilled), o rechazada (rejected).
+      ```js
+      // Example without Async Await
+      function operacionSinAsyncAwait() {
+        let recurso;
+        try {
+          recurso = obtenerRecurso();
+          // Operaciones que pueden lanzar excepciones
+          console.log('Realizando operaciones...');
+          throw new Error('Error simulado');
+        } catch (error) {
+          console.error('Ocurrió un error durante las operaciones:', error);
+        } finally {
+          if (recurso) {
+            liberarRecurso(recurso);
+          }
+          console.log('Limpiando recursos...');
+        }
+      }
+      function obtenerRecurso() {
+        return 'Recurso obtenido';
+      }
+      function liberarRecurso(recurso) {
+        console.log('Recurso liberado:', recurso);
+      }
+      operacionSinAsyncAwait();
+
+      // Example with Async Await
+      async function operacionConAsyncAwait() {
+        let recurso;
+        try {
+          recurso = await obtenerRecursoAsync();
+          // Operaciones que pueden lanzar excepciones
+          console.log('Realizando operaciones...');
+          throw new Error('Error simulado');
+        } catch (error) {
+          console.error('Ocurrió un error durante las operaciones:', error);
+        } finally {
+          if (recurso) {
+            liberarRecurso(recurso);
+          }
+          console.log('Limpiando recursos...');
+        }
+      }
+      function obtenerRecursoAsync() {
+        return new Promise(resolve => {
+          setTimeout(() => resolve('Recurso obtenido'), 1000);
+        });
+      }
+      function liberarRecurso(recurso) {
+        console.log('Recurso liberado:', recurso);
+      }
+      operacionConAsyncAwait();
+      ```
+    - Spread Operator: 
     - Rest Operator:
