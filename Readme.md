@@ -14,7 +14,8 @@
 - [Visual Studio Code](https://code.visualstudio.com/) Version
 - [Android Studio](https://developer.android.com/studio?hl=es-419) Version
   - _You can also use your Browser or the Expo Go Phone application_.
-- [React Js](https://es.react.dev/) Version 
+- [React Js](https://es.react.dev/) Version
+- [Next Js] (https://url) Version
 - [React Native](https://reactnative.dev/) Version
 - [Angular Js](https://angular.io/) Version
 - [TypeScript](https://www.typescriptlang.org/) Version
