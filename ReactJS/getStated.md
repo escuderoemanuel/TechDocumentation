@@ -1,0 +1,124 @@
+# GET STARTED
+
+## Decide how to start the project
+
+### ReactJS
+React is a library for building user interfaces.
+To create a project using Create React App (previously the most common way, but now it's better to use Vite):
+```sh
+// JavaScript Vanilla
+npx create-react-app my-app // Deprecated!
+
+// TypeScript
+npx create-react-app my-app --template typescript
+```
+
+### Vite
+Vite is a fast build tool for modern JavaScript projects, ideal for React applications.
+```sh
+// JavaScript Vanilla
+npm create vite@latest my-app
+cd my-app
+npm install
+npm run dev
+
+// TypeScript
+npm create vite@latest my-app -- --template react-ts
+cd my-app
+npm install
+npm run dev
+```
+
+### Next.js
+Next.js is a React framework that enables static site generation and server-side rendering.
+```sh
+// JavaScript Vanilla
+npx create-next-app@latest my-app
+cd my-app
+npm run dev
+
+// TypeScript
+npx create-next-app@latest my-app --typescript
+cd my-app
+npm run dev
+```
+
+### Remix
+Remix is a React framework focused on performance and developer experience.
+```sh
+// JavaScript Vanilla
+npx create-remix my-app
+cd my-app
+npm install
+npm run dev
+
+// TypeScript
+npx create-remix my-app --typescript
+cd my-app
+npm install
+npm run dev
+```
+
+### Gatsby
+Gatsby is a React-based framework for building fast websites and applications.
+```sh
+// JavaScript Vanilla
+npx create-gatsby my-app
+cd my-app
+npm install
+npm run develop
+
+// TypeScript
+npx create-gatsby my-app --typescript
+cd my-app
+npm install
+npm run develop
+```
+
+## Additional Steps
+
+## Initialize Git
+To version control your project from the start.
+```sh
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+## Install ESLint and Prettier
+To keep your code clean and consistent.
+```sh
+npm install eslint prettier eslint-plugin-react eslint-plugin-react-hooks eslint-config-prettier eslint-plugin-prettier --save-dev
+```
+Create configuration files .eslintrc.json and .prettierrc according to your preferences.
+
+## Setup CSS Framework or Library
+You can add a CSS framework like Tailwind CSS, Bootstrap, Material-UI, etc.
+
+### Tailwind CSS
+```sh
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+## Set Up Environment Variables
+To handle sensitive configurations and environment variables.
+Create a .env file in the root of the project and add your variables.
+
+## Configure CI/CD (opcional)
+Set up continuous integration and continuous deployment using tools like GitHub Actions, Travis CI, CircleCI, etc.
+
+## Documentation and Linting Pre-Commit Hooks
+Use Husky to run linters before commits.
+```sh
+npm install husky --save-dev
+npx husky install
+npx husky add .husky/pre-commit "npm run lint"
+```
+
+## Run the Application
+Depending on the tool you chose:
+```sh
+npm run dev      # Vite, Next.js, Remix
+npm start        # Create React App, Gatsby
+```
