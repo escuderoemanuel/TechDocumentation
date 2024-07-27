@@ -37,16 +37,16 @@ h4,
 h5,
 h6 {
   text-wrap: balance;
-  margin: 1rem;
+  margin: 2rem 0 1rem;
 }
 
 img,
 video,
 svg {
-  height: auto;
-  max-width: 100%;
   margin: 1rem;
   border-radius: 8px;
+  width: 400px;
+  height: auto;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -68,4 +68,36 @@ body {
   font-family: Montserrat;
 }
 
-@keyframes
+div {
+  max-width: 700px;
+}
+
+/* Animation */
+@keyframes show {
+  from {
+    opacity: 0.5;
+    scale: 50%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+img {
+  /* Assign a name to identify it when scrolling */
+  view-timeline-name: --image;
+  /* The axis that has to do with the scroll (block -> vertical) */
+  view-timeline-axis: block;
+
+  /* Link the scroll to the element */
+  animation-timeline: --image;
+  /* What is the animation */
+  animation-name: show;
+
+  /* From what percentage does the animation start and end? */
+  animation-range: entry 20% cover 40%;
+  /* In what sense is animation made? */
+  animation-fill-mode: both;
+}
