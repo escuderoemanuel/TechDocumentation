@@ -1,5 +1,6 @@
 /* // Tipo para usar dentro de otros tipos
 type HeroId = `${string}-${string}-${string}-${string}-${string}`
+type HeroPowerScale = 'local' | 'planetary' | 'galactic' | 'universal' | 'multiversal'
 
 // Optional Properties
 type Hero = {
@@ -24,5 +25,8 @@ const thor = createHero({ name: 'Thor', age: 1500, isActive: true }); // -> Es d
 const cap = createHero({ name: 'Capitan America', age: 90 }); // -> Es de tipo Hero
 const ironman = createHero({ name: 'Ironman', age: 45, isActive: false }); // -> Es de tipo Hero
 
-thor.id = 1 // -> No da error porque 'id' es opcional, pero da error porque es solamente de lectura, es decir que no se puede asignar/reasignar
  */
+/* Example */
+
+// const enableAnimatinoDuration: boolean | number = true // -> después le puedo pasar los 200ms
+const enableAnimatinoDuration: boolean | number = 200 // -> después le puedo pasar true y el 200ms se pasa por defecto
