@@ -146,5 +146,6 @@ _In the browser, go to the following path_
 ### FrontEnd Deployment With
 
 ---
+### Links
 
-- [Netlify] (https://www.netlify.com/) -
+- [Netlify](https://www.netlify.com/)
