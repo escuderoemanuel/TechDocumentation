@@ -1,0 +1,41 @@
+## Technologies
+- [Javascript](https://https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [Node](https://nodejs.org/en) Version
+- [Expo CLI](https://docs.expo.dev/more/expo-cli/) Version
+- [Visual Studio Code](https://code.visualstudio.com/) Version
+- [Android Studio](https://developer.android.com/studio?hl=es-419) Version
+  - _You can also use your Browser or the Expo Go Phone application_.
+- [React Js](https://es.react.dev/) Version
+- [Next Js] (https://url) Version
+- [React Native](https://reactnative.dev/) Version
+- [Angular Js](https://angular.io/) Version
+- [TypeScript](https://www.typescriptlang.org/) Version
+- [Firebase](https://firebase.google.com/?hl=es) Version
+- [Netlify](https://www.netlify.com/) Version
+- [Vercel](https://vercel.com/dashboard) Version
+- [Postman](https://www.postman.com/) Version
+- [MySQL]() Version
+- [Redux](https://redux.js.org/)
+- [GeoLib](https://www.npmjs.com/package/geolib)
+- [Yup](https://www.npmjs.com/package/yup)
+- [NodeJs](https://nodejs.org/en)
+- [ExpressJs](https://expressjs.com/es/)
+- [Handlebars](https://handlebarsjs.com/)
+- [MongoDB](https://www.mongodb.com/es)
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [NPM](https://www.npmjs.com/)
+- [JWT](https://jwt.io/)
+- [NodeMailer](https://www.npmjs.com/package/nodemailer)
+- [PassportAuth](https://www.passportjs.org/)
+- [BCrypt](https://www.npmjs.com/package/bcrypt)
+- [DotEnv](https://www.npmjs.com/package/dotenv)
+- [Faker](https://fakerjs.dev/)
+- [Luxon](https://www.npmjs.com/package/luxon)
+- [Multer](https://www.npmjs.com/package/multer)
+- [SocketIo](https://socket.io/)
+- [SwaggerJsDoc](https://www.npmjs.com/package/swagger-jsdoc)
+- [SweetAlert](https://sweetalert2.github.io/)
+- [UUID](https://www.npmjs.com/package/uuid)
+- [Winston](https://www.npmjs.com/package/winston)
+- [Commander](https://www.npmjs.com/package/commander)
+- [Cors](https://www.npmjs.com/package/cors)
