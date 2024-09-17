@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='./09.tasksList.js'></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Tasks List</title>
+</head>
+
+<body class='bg-black text-white flex flex-col justify-center items-center w-full' style='font-family: Inter;'>
+  <h1 class='uppercase my-4 font-semibold'>Lista de Tareas</h1>
+  <div class=' bg-neutral-600 p-6 rounded'>
+    <div class='flex flex-col w-96 justify-center items-center'>
+      <label for="task"></label>
+      <input class='rounded h-8 w-full text-black px-2 placeholder:italic italic' type="text" name="task" id="task"
+        placeholder='Escribe aquí tu tarea'>
+
+      <button id='btnAdd'
+        class='btn-primary w-full mt-2 px-2 py-1 rounded uppercase bg-sky-600 hover:bg-sky-500 text-sm font-semibold'
+        onclick='addTask()'>
+        Agregar Tarea
+      </button>
+    </div>
+    <ul class='flex flex-col justify-between items-center mt-8' id='divList'>
+
+    </ul>
+  </div>
+</body>
+
+</html>
