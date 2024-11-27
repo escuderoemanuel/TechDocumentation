@@ -24,3 +24,9 @@ that means
 <input type="text"/> a <br>
 <input type="text"/> is <br>
 <input type="text"/> good on GitHub.
+
+
+### Transcription:
+> That's the _core_ of it,but it has a different _workflow_.
+> Instead of Wikipedia's "anyone can _edit_" workflow, _Github_ has an "anyone can _request_ a _pull_" workflow.
+> And it also has an "anyone can _fork_" philosophy, that means forking a _repo_ is _considered_ good on GitHub.

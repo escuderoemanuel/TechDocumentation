@@ -9,23 +9,27 @@
 
 ## Write the words down:
 
-01: <input type="text"/>
+01: <input type="text"/> 
 
-02: <input type="text"/>
+02: <input type="text"/> 
 
-03: <input type="text"/>
+03: <input type="text"/> 
 
-04: <input type="text"/>
+04: <input type="text"/> 
 
-05: <input type="text"/>
+05: <input type="text"/> 
 
-06: <input type="text"/>
+06: <input type="text"/> 
 
-07: <input type="text"/>
+07: <input type="text"/> 
 
-08: <input type="text"/>
+08: <input type="text"/> 
 
-09: <input type="text"/>
+09: <input type="text"/> 
 
-10: <input type="text"/>
+10: <input type="text"/> 
 
+
+
+### Solution:
+> height, data, job, information, dictionary, keyboard, method, process, deadline, cache.
